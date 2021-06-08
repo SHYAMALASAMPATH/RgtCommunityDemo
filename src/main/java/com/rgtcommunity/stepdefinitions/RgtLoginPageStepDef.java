@@ -46,6 +46,7 @@ public class RgtLoginPageStepDef
     public void user_on_rd_login_page() throws Throwable 
     {
         DriverFactory.initilizeDriver();
+        System.out.println("driver initilization");
     }
     @When("user clicks on homepage login")
     public void user_clicks_on_homepage_login() throws InterruptedException 
